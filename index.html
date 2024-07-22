@@ -86,7 +86,7 @@
         <div class="checkbox-container">
             <input type="checkbox" id="ob_checkbox">
             <label for="ob_checkbox">Oboe</label>
-            <audio id="ob" src="https://github.com/k-evinzheng/woodwind-mixer/raw/1665174d9fa3388b24d796ea364089fa82f3da29/fl%208va.wav"></audio>
+            <audio id="ob" src="https://github.com/k-evinzheng/woodwind-mixer/raw/f403dedd4712323b9e9cd35219450f48fce7ce47/ob.wav"></audio>
         </div>
     </div>
     <div class="audio-control">
@@ -105,7 +105,7 @@
     </div>
 
     <div class="controls">
-        <button id="playStopButton" onclick="playStop()">⏵</button>
+        <button id="playStopButton" onclick="playStop()">▶</button>
         <button id="pauseResumeButton" onclick="pauseResume()">⏸</button>
     </div>
 
@@ -122,7 +122,7 @@
                 playStopButton.textContent = '⏹'; 
                 pauseResumeButton.textContent = isPaused ? '▶' : '⏸'; 
             } else {
-                playStopButton.textContent = '⏵'; 
+                playStopButton.textContent = '▶'; 
                 pauseResumeButton.textContent = '⏸'; 
             }
         }
